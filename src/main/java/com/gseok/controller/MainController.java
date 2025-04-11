@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
 	@GetMapping
 	public String intro(Model model) {
-		model.addAttribute("greeting", "Hello, Jenkins!");
+		model.addAttribute("greeting", "Welcome CI/CD world!!!!");
 		return "intro";
 	}
 }
